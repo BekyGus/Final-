@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css" />
+    
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="first-part">
+      <section class="header-main">
+        <div class="logo-header">
+          <h1>Oneder</h1>
+        </div>
+
+        <div class="ham-header" onclick="openHam()">
+            <img src="https://img.icons8.com/external-tal-revivo-filled-tal-revivo/2x/external-mobile-application-hamburger-menu-setting-interface-basic-filled-tal-revivo.png">
+
+        </div>
+
+       
+        <div class="nav-header">
+          <ul>
+            <a href="#home">
+            <li>Home</li>
+          </a>
+          <a href="#about"  onmouseenter="openAbout()" onmouseleave="closeAbout()">
+            <li class="flex">About us
+            </li>
+
+            <div class="nav-more" id="nav-more">
+              <a href="#team">
+                <p>Team</p>
+              </a>
+
+              <a href="#pricing">
+                <p>Pricing</p>
+              </a>
+
+              <a href="#faq">
+                <p>Faq</p>
+              </a>
+            </div >
+          </a>
+            
+          <a href="#portfolio">
+            <li>Portfolio</li>
+          </a>
+
+          <a href="#services">
+            <li>Services</li>
+          </a>
+
+          <a href="#testimonials">
+            <li>Testimonials</li>
+          </a>
+          <a href="#contact">
+            <li>Contact</li>
+          </a>
+          <a href="#blog">
+            <li>Blog</li>
+          </a>
+          </ul>
+        </div>
+      </section>
+
+      <div class="ham-list" id="ham-list">
+
+        <ul>
+          <a href="#home">
+          <li>Home</li>
+        </a>
+        <a href="#about">
+          <li>About us</li>
+        </a>
+          
+        <a href="#portfolio">
+          <li>Portfolio</li>
+        </a>
+
+        <a href="#services">
+          <li>Services</li>
+        </a>
+
+        <a href="#testimonials">
+          <li>Testimonials</li>
+        </a>
+        <a href="#contact">
+          <li>Contact</li>
+        </a>
+        <a href="#blog">
+          <li>Blog</li>
+        </a>
+        </ul>
+
+      </div>
+      <hr />
+      <section class="intro" id="home">
+        <div class="text-intro">
+          <h1>I am creative one page template by colorlib</h1>
+        </div>
+        <div>
+          <button class="common-button"><p>Get in touch</p></button>
+        </div>
+      </section>
+    </section>
+
+    <section class="about" id="about">
+      <div class="header">
+        <h1>About Oneder</h1>
+      </div>
+      <div class="about-body">
+        <div class="about-img">
+          <img
+            src="	https://preview.colorlib.com/theme/oneder/images/hero_1.jpg"
+          />
+        </div>
+        <div class="about-instruction">
+          <h3>For the next great business</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo tempora
+            cumque eligendi in nostrum labore omnis quaerat.
+          </p>
+
+          <ul>
+            <li>Officia quaerat eaque neque</li>
+            <li>Officia quaerat eaque neque</li>
+            <li>Officia quaerat eaque neque</li>
+            <li>Officia quaerat eaque neque</li>
+          </ul>
+
+          <button class="common-button"><p>Get In</p></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="team" id="team">
+      <div class="header">
+        <h1>Our team</h1>
+      </div>
+      <div class="team-people">
+        <div class="individual">
+          <div class="team-img">
+            <div class="blue">
+
+            </div>
+            <img
+              src="https://preview.colorlib.com/theme/oneder/images/person_5.jpg"
+            />
+          </div>
+          <div class="team-info">
+            <h1>Kaiara Spencer</h1>
+            <p>PRODUCT MANAGER</p>
+          </div>
+        </div>
+
+        <div class="individual">
+          <div class="team-img">
+
+            <div class="blue">
+
+            </div>
+            <img
+              src="https://preview.colorlib.com/theme/oneder/images/person_6.jpg"
+            />
+          </div>
+          <div class="team-info">
+            <h1>Kaiara Spencer</h1>
+            <p>PRODUCT MANAGER</p>
+          </div>
+        </div>
+
+        <div class="individual">
+          <div class="team-img">
+
+            <div class="blue">
+
+            </div>
+            <img
+              src="https://preview.colorlib.com/theme/oneder/images/person_7.jpg"
+            />
+          </div>
+          <div class="team-info">
+            <h1>Kaiara Spencer</h1>
+            <p>PRODUCT MANAGER</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+      <div class="header">
+        <h1>Portfolio</h1>
+      </div>
+      <div class="portfolio-buttons">
+        <button style="background-color:#007bff ; color:white;" onclick="all()" id="allBtn">All</button>
+        <button onclick="web()" id="webBtn">Web</button>
+        <button onclick="design()" id="designBtn">Design</button>
+        <button onclick="brand()" id="brandBtn">Brand</button>
+      </div>
+
+      <div class="portfolio-images" id="portfolio1">
+        <div class="portfolio-images1">
+          <img
+            src="https://preview.colorlib.com/theme/oneder/images/img_1.jpg"
+          />
+          <img
+            src="https://preview.colorlib.com/theme/oneder/images/img_5.jpg"
+          />
+          <img
+            src="https://preview.colorlib.com/theme/oneder/images/img_11.jpg"
+          />
+        </div>
+
+        <div class="portfolio-images1">
+          <img
+            src="https://preview.colorlib.com/theme/oneder/images/img_2.jpg"
+          />
+          <img
+            src="https://preview.colorlib.com/theme/oneder/images/img_6.jpg"
+          />
+          <img
+            src="https://preview.colorlib.com/theme/oneder/images/img_12.jpg"
+          />
+        </div>
+
+        <div class="portfolio-images1">
+          <img
+            src="https://preview.colorlib.com/theme/oneder/images/img_3.jpg"
+          />
+          <img
+            src="https://preview.colorlib.com/theme/oneder/images/img_8.jpg"
+          />
+          <img
+            src="https://preview.colorlib.com/theme/oneder/images/img_10.jpg"
+          />
+          <img
+            src="https://preview.colorlib.com/theme/oneder/images/img_13.jpg"
+          />
+        </div>
+
+        <div class="portfolio-images1">
+          <img
+            src="https://preview.colorlib.com/theme/oneder/images/img_4.jpg"
+          />
+          <img
+            src="https://preview.colorlib.com/theme/oneder/images/img_7.jpg"
+          />
+          <img
+            src="https://preview.colorlib.com/theme/oneder/images/img_9.jpg"
+          />
+        </div>
+      </div>
+
+      <div class="portfolio-images2" id="portfolio2">
+        <div class="portfolio-images1">
+          <img
+            src="https://preview.colorlib.com/theme/oneder/images/img_1.jpg"
+          />
+        
+          <img
+            src="https://preview.colorlib.com/theme/oneder/images/img_11.jpg"
+          />
+        </div>
+
+        <div class="portfolio-images1">
+          <img
+            src="https://preview.colorlib.com/theme/oneder/images/img_2.jpg"
+          />
+
+        </div>
+
+        <div class="portfolio-images1">
+          <img
+            src="https://preview.colorlib.com/theme/oneder/images/img_3.jpg"
+          />
+          <img
+            src="https://preview.colorlib.com/theme/oneder/images/img_8.jpg"
+          />
+        </div>
+
+        <div class="portfolio-images1">
+          <img
+            src="https://preview.colorlib.com/theme/oneder/images/img_4.jpg"
+          />
+        </div>
+      </div>
+
+      <div class="portfolio-images3" id="portfolio3">
+        <div class="portfolio-images1">
+          <img
+            src="https://preview.colorlib.com/theme/oneder/images/img_1.jpg"
+          />
+          <img
+            src="https://preview.colorlib.com/theme/oneder/images/img_5.jpg"
+          />
+          <img
+            src="https://preview.colorlib.com/theme/oneder/images/img_11.jpg"
+          />
+        </div>
+
+        <div class="portfolio-images1">
+          <img
+            src="https://preview.colorlib.com/theme/oneder/images/img_2.jpg"
+          />
+          <img
+            src="https://preview.colorlib.com/theme/oneder/images/img_6.jpg"
+          />
+          <img
+            src="https://preview.colorlib.com/theme/oneder/images/img_12.jpg"
+          />
+        </div>
+
+        <div class="portfolio-images1">
+          <img
+            src="https://preview.colorlib.com/theme/oneder/images/img_3.jpg"
+          />
+          <img
+            src="https://preview.colorlib.com/theme/oneder/images/img_8.jpg"
+          />
+         
+        </div>
+
+        <div class="portfolio-images1">
+          <img
+            src="https://preview.colorlib.com/theme/oneder/images/img_4.jpg"
+          />
+         
+        </div>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <div class="header">
+        <h1>Our Services</h1>
+      </div>
+      <div class="services-section-holder">
+        <div class="services-part">
+          <div class="services-part-section">
+            <div class="services-icon">
+              <img
+                src="https://cdn-icons-png.flaticon.com/128/4905/4905936.png"
+              />
+            </div>
+            <div class="services-sub">
+              <h3>Business Consulting</h3>
+            </div>
+            <div class="services-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perferendis quis molestiae vitae eligendi at.
+            </div>
+            <div class="services-learn-more">Learn More</div>
+          </div>
+
+          <div class="services-part-section">
+            <div class="services-icon">
+              <img
+                src="https://cdn-icons-png.flaticon.com/128/4905/4905936.png"
+              />
+            </div>
+            <div class="services-sub">
+              <h3>Business Consulting</h3>
+            </div>
+            <div class="services-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perferendis quis molestiae vitae eligendi at.
+            </div>
+            <div class="services-learn-more">Learn More</div>
+          </div>
+
+          <div class="services-part-section">
+            <div class="services-icon">
+              <img
+                src="https://cdn-icons-png.flaticon.com/128/4905/4905936.png"
+              />
+            </div>
+            <div class="services-sub">
+              <h3>Business Consulting</h3>
+            </div>
+            <div class="services-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perferendis quis molestiae vitae eligendi at.
+            </div>
+            <div class="services-learn-more">Learn More</div>
+          </div>
+        </div>
+
+        <div class="services-part">
+          <div class="services-part-section">
+            <div class="services-icon">
+              <img
+                src="https://cdn-icons-png.flaticon.com/128/4905/4905936.png"
+              />
+            </div>
+            <div class="services-sub">
+              <h3>Business Consulting</h3>
+            </div>
+            <div class="services-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perferendis quis molestiae vitae eligendi at.
+            </div>
+            <div class="services-learn-more">Learn More</div>
+          </div>
+
+          <div class="services-part-section">
+            <div class="services-icon">
+              <img
+                src="https://cdn-icons-png.flaticon.com/128/4905/4905936.png"
+              />
+            </div>
+            <div class="services-sub">
+              <h3>Business Consulting</h3>
+            </div>
+            <div class="services-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perferendis quis molestiae vitae eligendi at.
+            </div>
+            <div class="services-learn-more">Learn More</div>
+          </div>
+
+          <div class="services-part-section">
+            <div class="services-icon">
+              <img
+                src="https://cdn-icons-png.flaticon.com/128/4905/4905936.png"
+              />
+            </div>
+            <div class="services-sub">
+              <h3>Business Consulting</h3>
+            </div>
+            <div class="services-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perferendis quis molestiae vitae eligendi at.
+            </div>
+            <div class="services-learn-more">Learn More</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials" id="testimonials">
+      <div class="header">
+        <h1>Testimonials</h1>
+      </div>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum dolorem sapiente, dicta voluptas repellat quisquam sed quae expedita ab eveniet.</p>
+            <h4>Bruce Rogers</h4>
+          </div>
+          <div class="swiper-slide">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum dolorem sapiente, dicta voluptas repellat quisquam sed quae expedita ab eveniet.</p>
+            <h4>Bruce Rogers</h4>
+          </div>
+          <div class="swiper-slide">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum dolorem sapiente, dicta voluptas repellat quisquam sed quae expedita ab eveniet.</p>
+            <h4>Bruce Rogers</h4>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+  
+    </section>
+
+    <section class="pricing" id="pricing">
+      <div class="header">
+        <h1>Pricing</h1>
+      </div>
+
+      <div class="pricing-card-general">
+        <div class="pricing-card">
+          <h2>Basic</h2>
+          <h1>$47</h1>
+          <p>Officia quaerat eaque neque</p>
+          <p>Possimus aut consequuntur incidunt</p>
+          <p style="text-decoration: line-through">
+            Consectetur adipisicing elit
+          </p>
+          <p style="text-decoration: line-through">
+            Consectetur adipisicing elit
+          </p>
+          <p style="text-decoration: line-through">
+            Consectetur adipisicing elit
+          </p>
+          <button class="pricing-button"><p>buy now</p></button>
+        </div>
+
+        <div class="pricing-card">
+          <h2>Premium</h2>
+          <h1>$200</h1>
+          <p>Officia quaerat eaque neque</p>
+          <p>Possimus aut consequuntur incidunt</p>
+          <p>Consectetur adipisicing elit</p>
+          <p>Consectetur adipisicing elit</p>
+          <p style="text-decoration: line-through">
+            Consectetur adipisicing elit
+          </p>
+          <button class="pricing-button"><p>buy now</p></button>
+        </div>
+
+        <div class="pricing-card">
+          <h2>Professional</h2>
+          <h1>$750</h1>
+          <p>Officia quaerat eaque neque</p>
+          <p>Possimus aut consequuntur incidunt</p>
+          <p>Consectetur adipisicing elit</p>
+          <p>Consectetur adipisicing elit</p>
+          <p>Consectetur adipisicing elit</p>
+          <button class="pricing-button"><p>buy now</p></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq" id="faq">
+      <div class="header">
+        <h1>Frequently Ask Questions</h1>
+      </div>
+      <div class="faq-parts">
+        <div class="faq-part">
+          <div>
+            <h3>Can I accept both Paypal and Stripe?</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+              assumenda eum blanditiis perferendis.
+            </p>
+          </div>
+
+          <div>
+            <h3>What available is refund period?</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+              assumenda eum blanditiis perferendis.
+            </p>
+          </div>
+
+          <div>
+            <h3>Can I accept both Paypal and Stripe?</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+              assumenda eum blanditiis perferendis.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-part">
+          <div>
+            <h3>Where are you from?</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+              assumenda eum blanditiis perferendis.
+            </p>
+          </div>
+
+          <div>
+            <h3>What is your opening time?</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+              assumenda eum blanditiis perferendis.
+            </p>
+          </div>
+
+          <div>
+            <h3>Can I accept both Paypal and Stripe?</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+              assumenda eum blanditiis perferendis.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="noname-part">
+      <div class="text-part">
+        <div class="noname-icon">
+          <img src="https://cdn-icons-png.flaticon.com/128/4905/4905936.png" />
+        </div>
+
+        <h3>Web & Mobile Specialties</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+          quis consect.
+        </p>
+        <p>Learn More</p>
+      </div>
+
+      <div class="text-part">
+        <div class="noname-icon">
+          <img src="https://cdn-icons-png.flaticon.com/128/4905/4905936.png" />
+        </div>
+
+        <h3>Intuitive Thinkers</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+          quis consect.
+        </p>
+        <p>Learn More</p>
+      </div>
+
+      <div class="img-part">
+        <img
+          src="	https://preview.colorlib.com/theme/oneder/images/hero_1.jpg"
+        />
+      </div>
+    </section>
+
+    <section class="blog" id="blog">
+      <div class="header">
+        <h1>Our Blog</h1>
+      </div>
+
+      <div class="blog-carts">
+        <div class="blog-cart">
+          <div class="blog-image">
+            <img
+              src="https://preview.colorlib.com/theme/oneder/images/post_1.jpg"
+            />
+          </div>
+
+          <div class="blog-text-part">
+            <h2>Repudiandae Quisquam Eaque Dolore</h2>
+
+            <p>
+              Ham Brook • Jan 18, 2019•<span style="color: #007bff"> News</span>
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+              eligendi nobis ea maiores sapiente veritatis reprehenderit
+              suscipit quaerat rerum voluptatibus a eius.
+            </p>
+            <p class="continue">Continue reading...</p>
+          </div>
+        </div>
+
+        <div class="blog-cart">
+          <div class="blog-image">
+            <img
+              src="https://preview.colorlib.com/theme/oneder/images/post_2.jpg"
+            />
+          </div>
+
+          <div class="blog-text-part">
+            <h2>Repudiandae Quisquam Eaque Dolore</h2>
+
+            <p>
+              Ham Brook • Jan 18, 2019•<span style="color: #007bff"> News</span>
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+              eligendi nobis ea maiores sapiente veritatis reprehenderit
+              suscipit quaerat rerum voluptatibus a eius.
+            </p>
+            <p class="continue">Continue reading...</p>
+          </div>
+        </div>
+
+        <div class="blog-cart">
+          <div class="blog-image">
+            <img
+              src="https://preview.colorlib.com/theme/oneder/images/post_3.jpg"
+            />
+          </div>
+
+          <div class="blog-text-part">
+            <h2>Repudiandae Quisquam Eaque Dolore</h2>
+
+            <p>
+              Ham Brook • Jan 18, 2019•<span style="color: #007bff"> News</span>
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+              eligendi nobis ea maiores sapiente veritatis reprehenderit
+              suscipit quaerat rerum voluptatibus a eius.
+            </p>
+            <p class="continue">Continue reading...</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-us" id="contact-us">
+      <div class="header">
+        <h1>Contact Us</h1>
+      </div>
+
+      <div class="contact-container">
+        <div class="contact-way">
+          <!-- icon goy bura -->
+          <img />
+
+          <p>203 Fake St. Mountain View, San Francisco, California, USA</p>
+        </div>
+
+        <div class="contact-way">
+          <!-- icon goy bura -->
+          <img />
+
+          <p>+1 232 3235 324</p>
+        </div>
+
+        <div class="contact-way">
+          <!-- icon goy bura -->
+          <img />
+
+          <p>youremail@domain.com</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-form">
+     
+      <form>
+        <h1>Contact form</h1>
+        <div class="row-input">
+          <div class="form-field" style="width: 45%">
+            <label>Name</label>
+            <input />
+          </div>
+
+          <div class="form-field" style="width: 45%">
+            <label>SUrname</label>
+            <input />
+          </div>
+        </div>
+
+        <div class="form-field">
+          <label>Email</label>
+          <input />
+        </div>
+
+        <div class="form-field">
+          <label>Subject</label>
+          <input />
+        </div>
+
+        <div class="form-field">
+          <label>Message</label>
+          <textarea></textarea>
+        </div>
+
+        <button  class="submit-btn">Send message</button>
+
+      </form>
+    </section>
+
+    <!-- <section class="footer">
+      <div class="footer-parts">
+        <div class="footer-part">
+          <h2>About us</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
+            facere laudantium magnam voluptatum autem. Amet aliquid nesciunt
+            veritatis aliquam.
+          </p>
+        </div>
+
+        <div class="footer-part">
+          <h2>Quick Links</h2>
+          <li>about us</li>
+          <li>Sercives</li>
+          <li>Testimonials</li>
+          <li>Contact Us</li>
+        </div>
+
+        <div class="footer-part">
+          <h2>Follow us</h2>
+          <img
+            src="https://cdn.iconscout.com/icon/free/png-128/facebook-269-761599.png"
+          />
+          <img
+            src="https://cdn.iconscout.com/icon/free/png-128/twitter-1464537-1239448.png"
+          />
+          <img
+            src="https://cdn.iconscout.com/icon/free/png-128/instagram-1464521-1239436.png"
+          />
+          <img
+            src="https://cdn.iconscout.com/icon/free/png-128/linkedin-1464529-1239440.png"
+          />
+        </div>
+      </div>
+      <hr>
+      <div class="license">
+          <p>Copyright ©2022 All rights reserved | This template is made with  by Colorlib</p>
+      </div>
+    </section> -->
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

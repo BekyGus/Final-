@@ -1,0 +1,1091 @@
+body{
+    font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: gray;
+    font-weight: 400;
+    font-size: 1rem;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.header-main{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    padding: 0 10%;
+}
+
+a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7) ;
+}
+
+
+.header h1{
+    color: #007bff;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.first-part{
+    background-image: url("	https://preview.colorlib.com/theme/oneder/images/hero_1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    padding: 0 10%;
+    justify-content: space-between;
+    
+    margin-top: 5%;
+
+}
+
+.logo-header{
+    width: 30%;
+    font-family: "Work Sans" !important;
+    text-transform: uppercase;
+    color: white;
+
+
+}
+
+.logo-header h1{
+    font-size: 30px;
+    font-weight: 900;
+
+}
+.nav-header{
+    width: 70%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+.nav-more{
+    background-color: white;
+    color: black ;
+    opacity: 0;
+}
+
+
+
+.flex{
+    display: flex;
+    flex-direction: column ;
+}
+.nav-header ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.nav-header ul li{
+    list-style: none;
+    color: rgba(255, 255, 255, 0.7) !important;
+    font-weight: 200 !important;
+    margin-right: 20px;
+
+}
+
+.intro{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30%;
+    
+}
+
+.text-intro{
+    margin-top: 11%;
+}
+
+.common-button{
+    background-color: #007bff;
+   
+    border: #007bff solid 1px ;
+    border-radius: 30px;
+}
+
+.common-button p{
+    font-size: 20px;
+    margin: 0;
+    padding: 10px 30px;
+    text-transform: capitalize;
+    color: white;
+ 
+}
+
+.text-intro h1{
+    color: #fff;
+    font-weight: 900;
+    font-size: 2rem;
+    text-transform: uppercase;
+    width: 60%;
+    margin-left: 24%;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding: 0 10% ;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.about-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.about-img{
+    width: 50%;
+}
+
+.about-img img{
+    width: 100%;
+}
+
+.about-instruction{
+    width: 45%;
+
+}
+
+.about-instruction h3{
+    color: black;
+    font-size: 1.75rem;
+    font-weight: 500;
+}
+.team{
+    width: 80%;
+    padding: 0 10%;
+}
+
+.blue{
+    width: 25%;
+    background-color: #007bff;
+    height: 99%;
+    position: absolute;
+    display: none;
+    transition: 1s;
+
+}
+
+.team-img:hover .blue{
+    display: block;
+    transition: 1s;
+}
+
+.team-img{
+    position: relative;
+    transition: 1s;
+
+}
+
+.team-header{
+    display: flex;
+    justify-content: center;
+}
+
+.team-people{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.team-info h1{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: black;
+}
+
+.team-info p{
+    font-size: 1rem;
+}
+.individual{
+    width:30% ;
+}
+
+.team-img{
+    width: 100%;
+}
+
+.team-img img{
+    width: 100%;
+}
+
+.portfolio{
+    width: 80%;
+    padding: 0 10%;
+}
+
+
+
+.portfolio-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 5%;
+    
+}
+
+.portfolio-buttons button{
+    padding: 10px 30px;
+    border-radius: 30px;
+    margin-right: 2%;
+    background: rgba(52, 58, 64, 0.05);
+    color: black;
+    border: transparent 1px solid;
+}
+
+
+
+.portfolio-images{
+    display: flex;
+    flex-direction: row;
+}
+
+.portfolio-images2{
+    display: none;
+}
+
+.portfolio-images3{
+    display: none;
+}
+
+.portfolio-images1{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.portfolio-images1 img{
+    width: 90%;
+    margin-bottom: 5%;
+}
+
+.services{
+    width: 80%;
+    padding: 0 10%;
+}
+
+
+.services-section-holder{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.services-part{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 5%;
+}
+
+.services-sub h3{
+    font-size: 20px;
+    color: #000;
+    font-weight: 300;
+
+}
+
+.services-learn-more{
+    margin-top: 5%;
+    color: #007bff !important   ;
+
+}
+
+.pricing{
+    width: 80%;
+    padding: 10% 10%;
+    margin-top: 5%;
+    background: rgb(233, 233, 233);
+
+
+}
+
+
+.pricing-card-general{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.pricing-card{
+    border: 1px solid transparentx;
+    background-color: white;
+    padding: 5% 2%;
+    margin-top: 5%;
+}
+
+.pricing-card h2{
+    text-align: center;
+    font-size: 1.75rem;
+    color: black;
+    font-weight: 200;
+}
+
+.pricing-card h1{
+    font-size: 3rem;
+    color: #007bff;
+    font-weight: 300;
+    text-align: center;
+}
+.pricing-button{
+    display: flex;
+    justify-content: center;
+}
+
+.pricing-button{
+    background-color: #007bff;
+    border: #007bff solid 1px ;
+    border-radius: 30px;
+    width: 30%;
+    margin-left: 30%;
+   
+}
+
+.pricing-button p{
+    padding: 0 10%;
+    color: white;
+}
+
+.faq{
+    width: 80%;
+    padding: 0 10%;
+    /* display: flex; */
+    background: rgb(233, 233, 233);
+
+}
+
+
+
+.faq-parts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10% 0%;
+}
+
+.faq-part{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.faq-part>div h3{
+    font-size: 1.25rem;
+    color: black;
+    font-weight: 200;
+    margin-bottom: 5%;
+}
+
+.noname-part{
+    
+    width: 80%;
+    margin: 10% 10%;
+    display: flex;
+    flex-direction:row ;
+}
+
+.text-part{
+    width: 25%;
+}
+
+.img-part{
+    width: 50%;
+}
+
+.img-part img{
+    margin-left: 10%;
+     width: 90%;
+}
+
+.blog{
+    width: 80%;
+    margin: 5% 10%;
+    /* padding: 10%; */
+}
+
+
+
+.blog-carts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  
+}
+
+.blog-cart{
+    width: 33%;
+}
+
+.blog-text-part h2{
+    font-size: 20px;
+    color: #000;
+    font-weight: 200;
+    width: 80%;
+
+}
+
+.continue{
+    color: #007bff;
+}
+
+.contact-us{
+    width: 80%;
+    padding: 5% 10%;
+    background: rgb(233, 233, 233);
+
+}
+
+
+
+.contact-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.contact-way{
+    display: flex;
+    justify-content: center;
+    width: 33%;
+}
+
+.contact-form{
+    width: 80%;
+    padding: 5% 10%;
+    background: rgb(233, 233, 233);
+
+}
+
+form h1{
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 200;
+    color: black;
+    margin-bottom: 5%;
+   
+}
+
+form label{
+    color: black;
+    margin-bottom: 15px;
+
+}
+
+form input{
+    border-radius: 15px;
+    border:1px solid gray;
+    height: 25px;
+    margin-bottom: 15px;
+}
+
+.submit-btn{
+    background-color: #007bff;
+    color: white;
+    padding: 10px 30px;
+    margin-top: 2%;
+    border-radius: 25px;
+    border: none;
+}
+.row-input{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.form-field{
+    display: flex;
+    flex-direction: column;
+}
+
+form{
+    width: 80%;
+   padding: 5% 10%;
+   background-color: white;
+   border-radius: 5px;
+}
+
+.testimonials{
+    height: 500px;
+
+}
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide p{
+    font-size: 1.5rem;
+    font-style: italic;
+    width: 50%;
+    font-size: 35px;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 12px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .ham-header{
+    display: none;
+  }
+
+  .ham-list{
+    display: none;
+   background-color: white;
+   height: 100vh;
+   padding: 10%;
+   text-align: right;
+  }
+
+  .ham-list ul li{
+    list-style: none;
+    font-size: 22px;
+    color: black;
+    margin-bottom: 10%;
+
+    
+  }
+
+
+  
+
+
+  @media screen and (min-width: 320px) and (max-width: 370px) {
+
+    .ham-header{
+        /* width: 30%; */
+        display: flex;
+        /* justify-content: flex-end; */
+        /* align-items: flex-end; */
+        
+    }
+
+    .services-part{
+        flex-direction: column;
+    }
+
+    .services-part-section{
+        margin-bottom: 10%;
+    }
+
+    .nav-header{
+        display: none;
+    }
+
+    .header-main{
+        background-color: white;
+        flex-direction: row;
+        justify-content: space-between;
+        ALIGN-ITEMS: center;
+    }
+
+    .logo-header h1{
+        color: #007bff;
+
+    }
+    .text-intro h1{
+        font-size: 1rem;
+    }
+
+    .header h1{
+        font-size: 30px;
+    }
+
+    .about-body{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-img{
+        width: 90%;
+    }
+
+    .about-instruction{
+        width: 90%;
+    }
+
+    .team-people{
+        flex-direction: column;
+    }
+
+    .individual{
+        width: 100%;
+    }
+
+    .portfolio-buttons button{
+        width: 25%;
+        padding: 10px 10px;
+    }
+
+    .services-icon img{
+        widows: 35%;
+    }
+
+    .swiper-slide p{
+        width: 90%;
+        font-size: 25px;
+    }
+
+    .pricing-card-general{
+        flex-direction: column;
+    }
+
+    .faq-parts{
+        flex-direction: column;
+        
+    }
+
+    .faq-part{
+        width: 100%;
+    }
+
+
+    .noname-part{
+        flex-direction: column-reverse;
+    }
+
+    .img-part{
+        width: 100%;
+    }
+
+    .img-part img{
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .text-part{
+        width: 100%;
+        margin-top: 10%;
+    }
+    .blog-carts{
+        flex-direction: column;
+    }
+
+    .blog-cart{
+            width: 100%;
+    }
+
+    .contact-container{
+        flex-direction: column;
+    }
+
+    .contact-way{
+        width: 100%;
+    }
+
+   
+}
+@media screen and (min-width: 370px) and (max-width: 414px) {
+    .ham-header{
+        /* width: 30%; */
+        display: flex;
+        /* justify-content: flex-end; */
+        /* align-items: flex-end; */
+        
+    }
+
+    .services-part{
+        flex-direction: column;
+    }
+
+    .services-part-section{
+        margin-bottom: 10%;
+    }
+
+    .nav-header{
+        display: none;
+    }
+
+    .header-main{
+        background-color: white;
+        flex-direction: row;
+        justify-content: space-between;
+        ALIGN-ITEMS: center;
+    }
+
+    .logo-header h1{
+        color: #007bff;
+
+    }
+    .text-intro h1{
+        font-size: 1rem;
+    }
+
+    .header h1{
+        font-size: 30px;
+    }
+
+    .about-body{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-img{
+        width: 90%;
+    }
+
+    .about-instruction{
+        width: 90%;
+    }
+
+    .team-people{
+        flex-direction: column;
+    }
+
+    .individual{
+        width: 100%;
+    }
+
+    .portfolio-buttons button{
+        width: 25%;
+        padding: 10px 10px;
+    }
+
+    .services-icon img{
+        widows: 35%;
+    }
+
+    .swiper-slide p{
+        width: 90%;
+        font-size: 25px;
+    }
+
+    .pricing-card-general{
+        flex-direction: column;
+    }
+
+    .faq-parts{
+        flex-direction: column;
+        
+    }
+
+    .faq-part{
+        width: 100%;
+    }
+
+
+    .noname-part{
+        flex-direction: column-reverse;
+    }
+
+    .img-part{
+        width: 100%;
+    }
+
+    .img-part img{
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .text-part{
+        width: 100%;
+        margin-top: 10%;
+    }
+    .blog-carts{
+        flex-direction: column;
+    }
+
+    .blog-cart{
+            width: 100%;
+    }
+
+    .contact-container{
+        flex-direction: column;
+    }
+
+    .contact-way{
+        width: 100%;
+    }
+
+}
+@media screen and (min-width: 414px) and (max-width: 768px) {
+    .ham-header{
+        /* width: 30%; */
+        display: flex;
+        /* justify-content: flex-end; */
+        /* align-items: flex-end; */
+        
+    }
+
+    .services-part{
+        flex-direction: column;
+    }
+
+    .services-part-section{
+        margin-bottom: 10%;
+    }
+
+    .nav-header{
+        display: none;
+    }
+
+    .header-main{
+        background-color: white;
+        flex-direction: row;
+        justify-content: space-between;
+        ALIGN-ITEMS: center;
+    }
+
+    .logo-header h1{
+        color: #007bff;
+
+    }
+    .text-intro h1{
+        font-size: 1rem;
+    }
+
+    .header h1{
+        font-size: 30px;
+    }
+
+    .about-body{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-img{
+        width: 90%;
+    }
+
+    .about-instruction{
+        width: 90%;
+    }
+
+    .team-people{
+        flex-direction: column;
+    }
+
+    .individual{
+        width: 100%;
+    }
+
+    .portfolio-buttons button{
+        width: 25%;
+        padding: 10px 10px;
+    }
+
+    .services-icon img{
+        widows: 35%;
+    }
+
+    .swiper-slide p{
+        width: 90%;
+        font-size: 25px;
+    }
+
+    .pricing-card-general{
+        flex-direction: column;
+    }
+
+    .faq-parts{
+        flex-direction: column;
+        
+    }
+
+    .faq-part{
+        width: 100%;
+    }
+
+
+    .noname-part{
+        flex-direction: column-reverse;
+    }
+
+    .img-part{
+        width: 100%;
+    }
+
+    .img-part img{
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .text-part{
+        width: 100%;
+        margin-top: 10%;
+    }
+    .blog-carts{
+        flex-direction: column;
+    }
+
+    .blog-cart{
+            width: 100%;
+    }
+
+    .contact-container{
+        flex-direction: column;
+    }
+
+    .contact-way{
+        width: 100%;
+    }
+
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .ham-header{
+        /* width: 30%; */
+        display: flex;
+        /* justify-content: flex-end; */
+        /* align-items: flex-end; */
+        
+    }
+
+    .services-part{
+        flex-direction: column;
+    }
+
+    .services-part-section{
+        margin-bottom: 10%;
+    }
+
+    .nav-header{
+        display: none;
+    }
+
+    .header-main{
+        background-color: white;
+        flex-direction: row;
+        justify-content: space-between;
+        ALIGN-ITEMS: center;
+    }
+
+    .logo-header h1{
+        color: #007bff;
+
+    }
+    .text-intro h1{
+        font-size: 1rem;
+    }
+
+    .header h1{
+        font-size: 30px;
+    }
+
+    .about-body{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-img{
+        width: 90%;
+    }
+
+    .about-instruction{
+        width: 90%;
+    }
+
+    .team-people{
+        flex-direction: column;
+    }
+
+    .individual{
+        width: 100%;
+    }
+
+    .portfolio-buttons button{
+        width: 25%;
+        padding: 10px 10px;
+    }
+
+    .services-icon img{
+        widows: 35%;
+    }
+
+    .swiper-slide p{
+        width: 90%;
+        font-size: 25px;
+    }
+
+    .pricing-card-general{
+        flex-direction: column;
+    }
+
+    .faq-parts{
+        flex-direction: column;
+        
+    }
+
+    .faq-part{
+        width: 100%;
+    }
+
+
+    .noname-part{
+        flex-direction: column-reverse;
+    }
+
+    .img-part{
+        width: 100%;
+    }
+
+    .img-part img{
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .text-part{
+        width: 100%;
+        margin-top: 10%;
+    }
+    .blog-carts{
+        flex-direction: column;
+    }
+
+    .blog-cart{
+            width: 100%;
+    }
+
+    .contact-container{
+        flex-direction: column;
+    }
+
+    .contact-way{
+        width: 100%;
+    }
+
+}
