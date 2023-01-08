@@ -3,6 +3,7 @@
 var swiper = new Swiper(".mySwiper", {
     pagination: {
       el: ".swiper-pagination",
+      clickable: true
     },
   });
 
@@ -52,13 +53,13 @@ const portfolio3=document.getElementById("portfolio3")
     portfolio1.style.display="none"
     portfolio3.style.display="none"
     portfolio2.style.display="flex"
-
+    console.log("SLAMA")
 
      
   }
 
 
-  function all(){
+  function all2(){
     allBtn.style.backgroundColor="#007bff"
     allBtn.style.color="white"
 
@@ -74,6 +75,7 @@ const portfolio3=document.getElementById("portfolio3")
     portfolio2.style.display="none"
     portfolio3.style.display="none"
     portfolio1.style.display="flex"
+    console.log("SLAMAx")
 
      
   }
@@ -119,20 +121,22 @@ const portfolio3=document.getElementById("portfolio3")
   }
 
 
- gsap.registerPlugin(ScrollTrigger);
- gsap.defaults({ease:"none",duration:1})
+gsap.registerPlugin(ScrollTrigger);
+gsap.defaults({ease:"none",duration:1})
 
 
 gsap.from(".about", {
   y: 250,
-  //  opacity:0,
+  opacity:0,
   scrollTrigger: {
     trigger: ".about",
     start: "top center",
     end: "top 250px",
     // scrub: true,
     // markers: true,
-    id: "scrub"
+    id: "scrub",
+    resistance : false
+
   }
 });
 
@@ -140,7 +144,7 @@ gsap.from(".about", {
 
 gsap.from(".team", {
   y: 250,
-  //  opacity:0,
+  opacity:0,
   
   scrollTrigger: {
     trigger: ".team",
@@ -156,7 +160,7 @@ gsap.from(".team", {
 
 gsap.from(".portfolio", {
   y: 250,
-  //  opacity:0,
+  opacity:0,
   
   scrollTrigger: {
     trigger: ".portfolio",
@@ -169,14 +173,14 @@ gsap.from(".portfolio", {
   }
 });
 
-const about=document.getElementById("nav-more")
+const about=document.getElementById("aboutMore")
 
-// function openAbout(){
-//   about.style.display="flex"
-// }
+function openAbout(){
+  about.style.display="block"
+}
 
-// function closeAbout(){
-//   about.style.display="none"
-// }
+function closeAbout(){
+  about.style.display="none"
+}
 
 
